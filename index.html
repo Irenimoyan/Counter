@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> subwayCounter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="textbox">
+        <h1>
+            COUNTAM
+        </h1>
+        <h2>
+            Counting made easy. <br> Losing count shouldn't be a problem anymore.
+        </h2>
+    </div>
+    <div class="container">
+        <div class="counter">
+
+            <!-- THIS IS THE HEADER -->
+            <h1  id="count-el" class="count">0</h1>
+
+                    <!-- BUTTON  TO BE CLICKED ON -->
+
+            <button id="increment-btn" onclick="increment()">PRESS</button>
+
+                <!-- IT SAVES THE AMOUNT YOU COUNT -->
+
+            <button id="save-btn" onclick="save()">SAVE</button>
+
+         <!-- AND STORES THE INCREMENTED NUMBER -->
+
+            <p id="save-el">Previous Entries:</p>
+        
+        </div>
+        
+    </div>
+        
+    <script src="counter.js"></script>
+</body>
+</html>
